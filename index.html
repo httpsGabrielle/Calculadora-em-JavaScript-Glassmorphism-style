@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,300,0,0" />
+    <title>Calc++</title>
+</head>
+<body>
+    <div class="glassmorphism calculadora">
+        <h1>Calculadora</h1>
+        <div class="viewer glassmorphism">
+            <p id="viewer"></p>
+        </div>
+        <div class="glassmorphism grid-buttons">
+            <button class="clean" onclick="clean()">
+                <span class="material-symbols-outlined">delete</span>
+            </button>
+            <button class="remove">
+                <span class="material-symbols-outlined">backspace</span>
+            </button>
+            <button class="divide">/</button>
+            <button class="mult">
+                <span class="material-symbols-outlined">
+                    close
+                    </span>
+            </button>
+
+            <button onclick="insert('7')">7</button>
+            <button onclick="insert('8')">8</button>
+            <button onclick="insert('9')">9</button>
+            <button>-</button>
+
+            <button onclick="insert('4')">4</button>
+            <button onclick="insert('5')">5</button>
+            <button onclick="insert('6')">6</button>
+            <button class="add">+</button>
+
+            <button onclick="insert('1')">1</button>
+            <button onclick="insert('2')">2</button>
+            <button onclick="insert('3')">3</button>
+
+            <button class="result">=</button>
+
+            <button class="zero">0</button>
+            <button class="point">.</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
