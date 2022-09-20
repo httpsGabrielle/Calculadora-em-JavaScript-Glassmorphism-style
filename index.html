@@ -18,34 +18,30 @@
             <button class="clean" onclick="clean()">
                 <span class="material-symbols-outlined">delete</span>
             </button>
-            <button class="remove">
+            <button class="remove" onclick="backspace()">
                 <span class="material-symbols-outlined">backspace</span>
             </button>
-            <button class="divide">/</button>
-            <button class="mult">
-                <span class="material-symbols-outlined">
-                    close
-                    </span>
-            </button>
+            <button onclick="insert('/')" class="divide">/</button>
+            <button onclick="insert('*')" class="mult">x</button>
 
             <button onclick="insert('7')">7</button>
             <button onclick="insert('8')">8</button>
             <button onclick="insert('9')">9</button>
-            <button>-</button>
+            <button onclick="insert('-')">-</button>
 
             <button onclick="insert('4')">4</button>
             <button onclick="insert('5')">5</button>
             <button onclick="insert('6')">6</button>
-            <button class="add">+</button>
+            <button onclick="insert('+')" class="add">+</button>
 
             <button onclick="insert('1')">1</button>
             <button onclick="insert('2')">2</button>
             <button onclick="insert('3')">3</button>
 
-            <button class="result">=</button>
+            <button onclick="result()" class="result">=</button>
 
-            <button class="zero">0</button>
-            <button class="point">.</button>
+            <button onclick="insert('0')" class="zero">0</button>
+            <button onclick="insert('.')" class="point">.</button>
         </div>
     </div>
     <script src="script.js"></script>
