@@ -17,9 +17,5 @@ function backspace(){
 
 function result(){
     var resultado = eval(document.getElementById('viewer').innerHTML);
-    while(valores.length) {
-        valores.pop();
-     }
-    valore= resultado
     document.getElementById('viewer').innerHTML = resultado;
 }
