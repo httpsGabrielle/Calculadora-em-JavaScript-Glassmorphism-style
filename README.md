@@ -1,6 +1,6 @@
 # Calculadora Simples em HTML, CSS e JavaScript
 
-![Captura de Tela da Página Inicial](./preview.png)
+![Captura de Tela da Página Inicial](./img/preview.png)
 
 > Este é um projeto de uma calculadora simples desenvolvida usando tecnologias web básicas: HTML, CSS e JavaScript.
 
